@@ -10,6 +10,9 @@ html {
     align-items: center;        /* Centra los títulos verticalmente */
     justify-content: space-around; /* Distribuye el espacio igual entre títulos y bordes */
     width: 100%;                /* Ocupa todo el ancho de la pantalla */
+    position:fixed;top: 0;   /* Se pega al borde superior */
+    left: 0;  /* Se pega al borde izquierdo */
+    z-index: 1000; /* Opcional: asegura que la barra siempre esté por encima de otros contenidos */
 }
 
 /* Estilo para los textos dentro de la barra */
@@ -22,5 +25,10 @@ html {
 
 .nav-item {
     cursor: pointer; /* Indispensable para que aparezca la manita */
+}
+
+.test-text {
+  font-size: 80px; /* Aquí controlas el tamaño del texto del h1 */
+  font-family: sans-serif;
 }
   
