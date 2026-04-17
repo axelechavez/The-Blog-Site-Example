@@ -15,8 +15,12 @@ html {
 /* Estilo para los textos dentro de la barra */
 .navbar h1 {
     color: white;
-    /*text-decoration: none;      /* Quita el subrayado de los enlaces */
+    margin: 0;       /* Quitamos el margen por defecto del h1 para que no deforme la barra */
     font-family: Arial, sans-serif;
     font-weight: bold;
+}
+
+.nav-item {
+    cursor: pointer; /* Indispensable para que aparezca la manita */
 }
   

@@ -4,17 +4,24 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Home page</title>
+  <title>About</title>
   <link href="./style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <!-- Navbar -->
   <div class="navbar">
-    <!-- List of elements in nav bar -->
-      <h1>Home page</h1>
-      <h1>About us</h1>
-      <h1>Contact us</h1>
+    <!-- Each webpage in its own container -->
+    <!-- common class | onclick selects local file-->
+    <div class="nav-item" onclick="window.location.href='index.html'">
+        <h1>Home</h1>
+    </div>
+    <div class="nav-item" onclick="window.location.href='about.html'">
+        <h1>About Us</h1>
+    </div>
+    <div class="nav-item" onclick="window.location.href='contact.html'">
+        <h1>Contact Us</h1>
+    </div>
   </div>
 
   <!--
