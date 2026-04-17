@@ -2,4 +2,33 @@ html {
     height: 100%;
     width: 100%;
   }
+
+.navbar {
+    background-color: #0047AB; /* Un tono de azul */
+    height: 60px;               /* Define qué tan "delgado" es el rectángulo */
+    display: flex;              /* Activa el modo Flexbox */
+    align-items: center;        /* Centra los títulos verticalmente */
+    justify-content: space-around; /* Distribuye el espacio igual entre títulos y bordes */
+    width: 100%;                /* Ocupa todo el ancho de la pantalla */
+    position:fixed;top: 0;   /* Se pega al borde superior */
+    left: 0;  /* Se pega al borde izquierdo */
+    z-index: 1000; /* Opcional: asegura que la barra siempre esté por encima de otros contenidos */
+}
+
+/* Estilo para los textos dentro de la barra */
+.navbar h1 {
+    color: white;
+    margin: 0;       /* Quitamos el margen por defecto del h1 para que no deforme la barra */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.nav-item {
+    cursor: pointer; /* Indispensable para que aparezca la manita */
+}
+
+.test-text {
+  font-size: 80px; /* Aquí controlas el tamaño del texto del h1 */
+  font-family: sans-serif;
+}
   
