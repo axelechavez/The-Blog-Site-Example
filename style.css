@@ -4,63 +4,14 @@ html {
   }
 
 
-body {
+/*body {
   margin: 0;
   padding: 0;
 }
 
 * {
     box-sizing: border-box;
-}
-
-/* ------------- NAVBAR --------------*/
-.navbar {
-    background-color: #0047AB; /* Un tono de azul */
-    height: 60px;               /* Define qué tan "delgado" es el rectángulo */
-    display: flex;              /* Activa el modo Flexbox */
-    align-items: center;        /* Centra los títulos verticalmente */
-    justify-content: space-around; /* Distribuye el espacio igual entre títulos y bordes */
-    width: 100%;                /* Ocupa todo el ancho de la pantalla */
-    position:fixed;
-    top: 0;   /* Se pega al borde superior */
-    left: 0;  /* Se pega al borde izquierdo */
-    z-index: 1000; /* Opcional: asegura que la barra siempre esté por encima de otros contenidos */
-}
-
-/* Estilo para los textos dentro de la barra */
-.navbar h1 {
-    color: white;
-    margin: 0;       /* Quitamos el margen por defecto del h1 para que no deforme la barra */
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-}
-
-.nav-item {
-    cursor: pointer;    /* Indispensable para que aparezca la manita */
-}
-
-/* ------------- FOOTER --------------*/
-footer {
-    background-color: #0047AB;    /* Un tono de azul */
-    min-height: 80px;                   /* Define qué tan "delgado" es el rectángulo */
-    display: flex;                  /* Activa el modo Flexbox */
-    flex-direction: column;         /* Muestra los elementos verticalmente*/
-    justify-content: space-around;  /* Distribuye el espacio igual entre títulos y bordes */
-    gap: 5px;               /* Define un espacio constante entre los párrafos */
-    padding-left: 2%;
-    width: 100%;                    /* Ocupa todo el ancho de la pantalla */
-    position: static;
-    bottom: 0;
-}
-
-/* Estilo para los textos dentro del footer */
-footer p {
-    color: white;
-    margin: 0;       /* Quitamos el margen por defecto del h1 para que no deforme la barra */
-    font-size: 12px;
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-}
+}*/
 
 /* ------------- TEXTO --------------*/
 
